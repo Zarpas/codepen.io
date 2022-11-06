@@ -1,6 +1,7 @@
 body {
     margin: 0px;
     font-family: 'Roboto', sans-serif;
+    background-color: #191a1d;
 }
 
 .header {
@@ -52,14 +53,14 @@ body {
 .navbar > .desplegable {
     margin-left: 15px;
     background-color: black;
-    color: grey;
+    color: #acacac;
     border: 0px;
     font-size: 1.5em;
     font-weight: 900;
 }
 
 .left-column p {
-    color: rgb(235, 218, 124);
+    color: #f4e184;
     font-size: 1.5em;
     margin: 0px;
 }
@@ -72,7 +73,7 @@ body {
 
 .right-column > .estilo-wrapper > .desplegable  {
     width: 200;
-    background-color: rgb(65, 65, 65);
+    background-color: #36383f;
     padding: 16px 32px;
     align-content: center;
     color: white;
@@ -85,13 +86,13 @@ body {
 
 .search i {
     font-size: 2em;
-    color: white;
+    color: #7b7e8b;
     margin-left: 20px;
     margin-right: 10px;
 }
 
  .button {
-    background-color: rgb(65,65,65);
+    background-color: #36383f;
     border: none;
     color: white;
     padding: 16px 32px;
@@ -106,8 +107,9 @@ body {
 }
 
 .hero-section {
+    height: 647px;
     display:grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1.1fr 1fr;
     background-color: rgb(45,48,55);
     box-shadow: inset -15px 15px 62px -3px #434750;
 }
@@ -118,16 +120,17 @@ body {
 }
 
 .hero-section > .left-wrapper > .text-wrapper > .message-text1 p {
-    color: gray;
+    color: white;
     font-size: 2.6em;
 }
 
 .hero-section > .left-wrapper > .text-wrapper > .message-text1 span {
     color: #fafafa;
+    font-weight: 900;
 }
 
 .hero-section > .left-wrapper > .text-wrapper > .message-text2 p {
-    color: gray;
+    color: #b3b3b3;
     font-size: 2.2em;
 }
 
@@ -135,15 +138,10 @@ body {
     display: flex;
 }
 
-.hero-section > .image-wrapper img {
-    width: 75%;
-}
-
-
 .button2 {
-    background-color: rgb(17, 141, 17);
+    background-color: #4bce79;
     border: none;
-    color: white;
+    color: black;
     padding: 16px 32px;
     text-align: center;
     text-decoration: none;
@@ -156,7 +154,7 @@ body {
 }
 
 .button3 {
-    background-color: black;
+    background-color: #111111;
     border: none;
     color: white;
     padding: 16px 32px;
@@ -171,7 +169,51 @@ body {
 }
 
 .hero-section > .image-wrapper {
-    display: grid;
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
 }
 
+.hero-section>.image-wrapper>.image img {
+    height:590px;
+    width: 100%;
+}
+
+.hero-section > .image-wrapper > .text {
+    color: white;
+    font-size: 1.1em;
+    font-weight: 700;
+}
+
+.hero-section > .image-wrapper > .text span {
+    color: #78daf6;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+    height: 100px;
+    background-color: #36383f;
+}
+
+.footer > .foot-text {
+    height: 100px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    box-sizing: border-box;
+    border: 1px solid #676767;
+}
+
+.footer > .foot-text p {
+    font-family: 'Kanit', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 200;
+}
+
+.footer > .foot-text span{
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    font-weight: 900;
+}
